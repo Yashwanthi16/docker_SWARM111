@@ -1,25 +1,25 @@
 version: '3.8'
 services:
   movies:
-    image: rahamshaik/paytmmoviesss:latest
+    image: uhsay805/movies
     ports:
       - "81:80"
     deploy:
       replicas: 3
   train:
-    image: rahamshaik/paytmtrainnn:latest
+    image: uhsay805/train
     ports:
       - "82:80"
     deploy:
       replicas: 3
   dth:
-    image: rahamshaik/paytmdthhh
+    image: uhsay805/dth
     ports:
       - "83:80"
     deploy:
       replicas: 3
   recharge:
-    image: rahamshaik/paytmrechargeee:latest
+    image: uhsay805/recharge
     ports:
       - "84:80"
     deploy:
