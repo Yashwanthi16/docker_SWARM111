@@ -3,24 +3,24 @@ services:
   movies:
     image: uhsay805/movies
     ports:
-      - "81:80"
+      - "44:80"
     deploy:
       replicas: 3
   train:
     image: uhsay805/train
     ports:
-      - "82:80"
+      - "55:80"
     deploy:
       replicas: 3
   dth:
     image: uhsay805/dth
     ports:
-      - "83:80"
+      - "66:80"
     deploy:
       replicas: 3
   recharge:
     image: uhsay805/recharge
     ports:
-      - "84:80"
+      - "77:80"
     deploy:
       replicas: 3
