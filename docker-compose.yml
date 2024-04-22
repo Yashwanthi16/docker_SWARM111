@@ -7,7 +7,7 @@ services:
     deploy:
       replicas: 3
   train:
-    image: uhsay805/train
+    image: uhsay805/trainnnn
     ports:
       - "55:80"
     deploy:
